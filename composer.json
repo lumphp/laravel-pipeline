@@ -1,0 +1,35 @@
+{
+    "name": "lumphp/laravel-pipeline",
+    "description": "The Illuminate Pipeline package.",
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/lumphp/laravel-pipeline/issues",
+        "source": "https://github.com/lumphp/laravel-pipeline"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "lumphp/laravel-contracts": "^7.0",
+        "lumphp/laravel-support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Pipeline\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
